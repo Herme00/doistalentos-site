@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos Estilo TikTok</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="video-container">
+    <video class="video" muted playsinline loop>
+        <source src="file/Borderlands.O.Destino.do.Universo.Esta.em.Jogo.2024.1080p.WEB-DL.EAC3.AAC.DUAL.5.1.mkv" type="video/mp4">
+        Seu navegador não suporta o formato de vídeo.
+    </video>
+    <video class="video" muted playsinline loop>
+        <source src="file/A.Quiet.Place.Day.One.2024.720p.WEBRip.Dublado.mkv" type="video/mp4">
+        Seu navegador não suporta o formato de vídeo.
+    </video>
+    <video class="video" muted playsinline loop>
+        <source src="video3.mp4" type="video/mp4">
+        Seu navegador não suporta o formato de vídeo.
+    </video>
+</div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação Anônima</title>
+    <style>
+        /* Estilo da página */
+        body {
+            background-color: #202124;
+            color: #e8eaed;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Estilo do contêiner central */
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        /* Estilo do ícone de navegação anônima */
+        .icon {
+            font-size: 100px;
+            color: #5f6368;
+            margin-bottom: 20px;
+        }
+
+        /* Títulos e texto */
+        h1 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #e8eaed;
+            margin: 0;
+        }
+
+        p {
+            font-size: 16px;
+            color: #9aa0a6;
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        /* Estilo do botão de navegação */
+        .button-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .button {
+            background-color: #5f6368;
+            color: #e8eaed;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background-color: #3c4043;
+        }
+    </style>
+</head>
+<body>
+    <section id="eventos" class="section-eventos">
+        <h2>Nossos Eventos</h2>
+        <p>Aqui estão alguns dos projetos realizados por nossos alunos e colaboradores nas áreas de saúde e análises clínicas.</p>
+        
+        <div class="eventos-container">
+            
+            <article class="eventos-item">
+                <img src="img/download (5).jfif" alt="Projeto 1">
+                <h3>Projeto de Simulação Hospitalar</h3>
+                <p>Este projeto visa simular um ambiente hospitalar com todas as condições reais de um hospital.</p>
+                <a href="#" class="button-leia-mais">Leia Mais</a>
+            </article>
+            <article class="eventos-item">
+                <img src="img/download (5).jfif" alt="Projeto 2">
+                <h3>Análise Clínica Avançada</h3>
+                <p>Trabalho prático sobre técnicas avançadas de análises clínicas realizado em nossos laboratórios.</p>
+                <a href="#" class="button-leia-mais">Leia Mais</a>
+            </article>
+            <article class="eventos-item">
+                <img src="img/download (5).jfif" alt="Projeto 3">
+                <h3>Seminário de Enfermagem</h3>
+                <p>Evento organizado pelos alunos do curso de enfermagem, abordando as inovações na área de saúde.</p>
+                <a href="#" class="button-leia-mais">Leia Mais</a>
+            </article>
+            <article class="eventos-item">
+                <img src="img/download (5).jfif" alt="Projeto 1">
+                <h3>Projeto de Simulação Hospitalar</h3>
+                <p>Este projeto visa simular um ambiente hospitalar com todas as condições reais de um hospital.</p>
+                <a href="#" class="button-leia-mais">Leia Mais</a>
+            </article>
+            <article class="eventos-item">
+                <img src="img/download (5).jfif" alt="Projeto 2">
+                <h3>Análise Clínica Avançada</h3>
+                <p>Trabalho prático sobre técnicas avançadas de análises clínicas realizado em nossos laboratórios.</p>
+                <a href="#" class="button-leia-mais">Leia Mais</a>
+            </article>
+            <article class="eventos-item">
+                <img src="img/download (5).jfif" alt="Projeto 3">
+                <h3>Seminário de Enfermagem</h3>
+                <p>Evento organizado pelos alunos do curso de enfermagem, abordando as inovações na área de saúde.</p>
+                <a href="#" class="button-leia-mais">Leia Mais</a>
+            </article>
+        </div>
+    </section>
+   
+    <section id="comentarios" class="section-comentarios" style="display: none;">
+        <h2>Comentários</h2>
+        <form id="commentForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            
+            <label for="comment">Comentário:</label>
+            <textarea id="comment" required></textarea>
+            
+            <button type="submit">Enviar Comentário</button>
+        </form>
+        
+        <div id="commentSection">
+            <h3>Comentários Recentes</h3>
+            <div id="commentList">
+                <!-- Comentários aparecerão aqui -->
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <!-- Ícone de navegação anônima -->
+        <div class="icon">🕶️</div>
+        
+        <!-- Mensagem informativa -->
+        <h1>Você está no modo de navegação anônima</h1>
+        <p>Agora você pode navegar de forma privada. Outras pessoas que usarem este dispositivo não verão a sua atividade.</p>
+        <p>Contudo, os sites visitados, o provedor de serviços de internet ou o administrador de rede ainda poderão rastrear sua navegação.</p>
+        
+        <!-- Botões de navegação simulada -->
+        <div class="button-container">
+            <a href="#" class="button">Configurações</a>
+            <a href="#" class="button">Fechar modo anônimo</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+<script src="script.js">
+    const videos = document.querySelectorAll('.video');
+
+let currentVideoIndex = 0;
+
+// Inicia o primeiro vídeo
+videos[currentVideoIndex].play();
+
+// Função para parar o vídeo atual e iniciar o próximo
+function changeVideo() {
+    videos[currentVideoIndex].pause();
+    
+    currentVideoIndex = (currentVideoIndex + 1) % videos.length; // Vai para o próximo vídeo
+
+    videos[currentVideoIndex].play();
+}
+
+// Muda o vídeo quando o usuário rola para baixo
+document.querySelector('.video-container').addEventListener('wheel', (event) => {
+    if (event.deltaY > 0) {
+        changeVideo();
+    }
+});
+
+// Adiciona um evento para parar o vídeo ao sair da tela
+videos.forEach(video => {
+    video.addEventListener('ended', changeVideo);
+});
+
+
+document.getElementById("eventoForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    // Captura os dados do formulário
+    const titulo = document.getElementById("titulo").value;
+    const autor = document.getElementById("autor").value;
+    const ano = document.getElementById("ano").value;
+    const descricao = document.getElementById("descricao").value;
+    const link = document.getElementById("link").value;
+
+    // Cria um objeto de evento
+    const novoevento = { titulo, autor, ano, descricao, link };
+
+    // Carrega a lista de eventos do localStorage ou inicia uma nova lista
+    let eventos = JSON.parse(localStorage.getItem("eventos")) || [];
+
+    // Adiciona o novo evento à lista e salva no localStorage
+    eventos.push(novoevento);
+    localStorage.setItem("eventos", JSON.stringify(eventos));
+
+    // Limpa o formulário e exibe uma mensagem de sucesso
+    document.getElementById("eventoForm").reset();
+    alert("evento publicado com sucesso!");
+});
+document.addEventListener("DOMContentLoaded", function () {
+    rendereventos();
+
+    // Função para renderizar os eventos com botões de remoção
+    function rendereventos() {
+        // Limpa a lista para evitar duplicações ao renderizar
+        const eventosContainer = document.getElementById("eventos");
+        eventosContainer.innerHTML = "";
+
+        // Carrega os eventos do localStorage
+        const eventos = JSON.parse(localStorage.getItem("eventos")) || [];
+
+        if (eventos.length === 0) {
+            eventosContainer.innerHTML = "<p>Nenhum evento publicado.</p>";
+        } else {
+            // Cria o HTML para cada evento com um botão de remoção
+            eventos.forEach((evento, index) => {
+                const eventoDiv = document.createElement("div");
+                eventoDiv.classList.add("evento");
+
+                eventoDiv.innerHTML = `
+                    <h3>${evento.titulo}</h3>
+                    <p><strong>Autor:</strong> ${evento.autor}</p>
+                    <p><strong>Ano:</strong> ${evento.ano}</p>
+                    <p><strong>Descrição:</strong> ${evento.descricao}</p>
+                    <p>...</p>
+                    ${evento.link ? `<p><a href="${evento.link}" class="cta-btn" target="_blank">Acessar evento</a></p>` : ""}
+                    <button onclick="removeevento(${index})">Remover</button>
+                    <hr>
+                `;
+
+                eventosContainer.appendChild(eventoDiv);
+            });
+        }
+    }
+
+    // Função para remover um evento pelo índice
+    window.removeevento = function (index) {
+        let eventos = JSON.parse(localStorage.getItem("eventos")) || [];
+
+        // Remove o evento do array e atualiza o localStorage
+        eventos.splice(index, 1);
+        localStorage.setItem("eventos", JSON.stringify(eventos));
+
+        // Renderiza novamente os eventos atualizados
+        rendereventos();
+        alert("evento removido com sucesso!");
+    };
+});
+
+    
+</script>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Remove a barra de rolagem do corpo */
+}
+
+.video-container {
+    height: 100vh; /* Altura total da janela de visualização */
+    overflow-y: scroll; /* Permite rolagem vertical */
+}
+
+.video {
+    width: 100%; /* Largura total da tela */
+    height: 100vh; /* Altura total da tela */
+    object-fit: cover; /* Cobre o espaço sem distorcer o vídeo */
+}
+
+</style>
+</body>
+</html>
